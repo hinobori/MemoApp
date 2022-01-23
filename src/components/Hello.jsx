@@ -6,7 +6,7 @@ function Hello(props) {
     const { children, bang, style } = props;
     return (
         <View>
-            <Text style={styles.text, style}>
+            <Text style={[styles.text, style]}>
                 {`Hello ${children}${bang ? '!' : ''}`}
             </Text>
         </View>
