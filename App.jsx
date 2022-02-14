@@ -22,7 +22,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Login"
+        initialRouteName="LogIn"
         screenOptions={{
           headerStyle: { backgroundColor: '#467FD3' },
           headerTitleStyle: { color: '#ffffff' },
@@ -37,7 +37,7 @@ export default function App() {
         <Stack.Screen name="MemoEdit" component={MemoEditScreen} />
         <Stack.Screen name="MemoCreate" component={MemoCreateScreen} />
         <Stack.Screen
-          name="Login"
+          name="LogIn"
           component={LoginScreen}
           options={{
             cardStyleInterpolator: CardStyleInterpolators.forFadeFromBottomAndroid,
